@@ -9,7 +9,7 @@ Group project of Table 38, six members. Hard deadline: **Sun 15 Nov 2026, 23:59*
 <!-- board:start -->
 ## Live status: who waits for whom
 
-A program rebuilds this table from the files in the repository and from the reports in the six share issues. Last change: Sun 15 Nov 17:18.
+A program rebuilds this table from the files in the repository and from the reports in the six share issues. Last change: Sun 15 Nov 17:58.
 
 **Nobody is waiting for anybody.**
 
@@ -20,7 +20,7 @@ A program rebuilds this table from the files in the repository and from the repo
 | **Qiutian** · [C](work/C-compute-runs-efficiency.md)<br>✅ Finished<br>7 / 7 own tasks done | — | nobody | nobody |
 | **Hailing** · [D](work/D-baselines.md)<br>✅ Finished<br>7 / 7 own tasks done | — | nobody | nobody |
 | **Jikai** · [E](work/E-neural-models.md)<br>✅ Finished<br>6 / 6 own tasks done | — | nobody | nobody |
-| **Zhifei** · [F](work/F-interpretation-demo.md)<br>🟢 Can work<br>3 / 6 own tasks done<br>⏰ 3 past the time | F1 LIME on the final DistilBERT · Sat 14 Nov 12:00 ⏰<br>F3 Transfer matrix · Sat 14 Nov 12:00 ⏰<br>F4 Extrapolation to ScienceQA · Sat 14 Nov 12:00 ⏰ | nobody | nobody |
+| **Zhifei** · [F](work/F-interpretation-demo.md)<br>✅ Finished<br>6 / 6 own tasks done | — | nobody | nobody |
 
 | Everyone hands in | To | By | Still missing from |
 |---|---|---|---|
@@ -28,7 +28,7 @@ A program rebuilds this table from the files in the repository and from the repo
 | Own recording | Xingyang | Sat 14 Nov 23:59 ⏰ | everyone |
 | Lines for the reflection document | Wenyue | Sun 15 Nov 10:00 ⏰ | everyone |
 
-Pull requests waiting for the lead's review: [#17](https://github.com/Kankawa728-byte/levellens/pull/17) by XiaoSong1223.
+Pull requests waiting for the lead's review: none.
 
 - **Finished something?** Comment `done C4` on the issue of your share: [A](https://github.com/Kankawa728-byte/levellens/issues/1), [B](https://github.com/Kankawa728-byte/levellens/issues/2), [C](https://github.com/Kankawa728-byte/levellens/issues/3), [D](https://github.com/Kankawa728-byte/levellens/issues/4), [E](https://github.com/Kankawa728-byte/levellens/issues/5), [F](https://github.com/Kankawa728-byte/levellens/issues/6). Several at once: `done C1 C2`. What everyone hands in: `done slides`, `done recording`, `done reflection`. To take one back: `undo C4`.
 - 🟢 the next task can be done now. 🟡 the next task waits for someone, a later one can be done. 🔴 every open task waits for someone.
