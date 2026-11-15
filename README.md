@@ -9,7 +9,7 @@ Group project of Table 38, six members. Hard deadline: **Sun 15 Nov 2026, 23:59*
 <!-- board:start -->
 ## Live status: who waits for whom
 
-A program rebuilds this table from the files in the repository and from the reports in the six share issues. Last change: Sun 15 Nov 15:43.
+A program rebuilds this table from the files in the repository and from the reports in the six share issues. Last change: Sun 15 Nov 16:04.
 
 **Most people wait for:** Zhifei · list of the 15 worst errors · by Sat 14 Nov 10:00. Waiting, directly or through someone else: Wenyue.
 
@@ -24,7 +24,7 @@ A program rebuilds this table from the files in the repository and from the repo
 
 | Everyone hands in | To | By | Still missing from |
 |---|---|---|---|
-| Final slides for proofreading | Wenyue | Sat 14 Nov 16:00 ⏰ | everyone |
+| Final slides for proofreading | Wenyue | Sat 14 Nov 16:00 ⏰ | Xingyang, Qiutian, Hailing, Jikai, Zhifei |
 | Own recording | Xingyang | Sat 14 Nov 23:59 ⏰ | everyone |
 | Lines for the reflection document | Wenyue | Sun 15 Nov 10:00 ⏰ | everyone |
 
