@@ -9,18 +9,18 @@ Group project of Table 38, six members. Hard deadline: **Sun 15 Nov 2026, 23:59*
 <!-- board:start -->
 ## Live status: who waits for whom
 
-A program rebuilds this table from the files in the repository and from the reports in the six share issues. Last change: Sun 15 Nov 16:04.
+A program rebuilds this table from the files in the repository and from the reports in the six share issues. Last change: Sun 15 Nov 16:29.
 
-**Most people wait for:** Zhifei · list of the 15 worst errors · by Sat 14 Nov 10:00. Waiting, directly or through someone else: Wenyue.
+**Nobody is waiting for anybody.**
 
 | Who | Can do now | Waits for | Who waits for this share |
 |---|---|---|---|
 | **Xingyang** · [A](work/A-framework-integration.md)<br>🟡 Partly waiting<br>6 / 9 own tasks done<br>⏰ 3 past the time | A5 Specification freeze, reviews and merges, daily integration, go or no-go calls · Sun 15 Nov 14:00 ⏰ | **everyone**: own recording · by Sat 14 Nov 23:59 ⏰ · for A7, A8 | **everyone**: joined video for the review · by Sun 15 Nov 11:00 ⏰ |
-| **Wenyue** · [B](work/B-literature-data-audit.md)<br>🟡 Partly waiting<br>4 / 7 own tasks done<br>⏰ 3 past the time | B7 Submission checklist, peer-evaluation reminders · Sun 15 Nov 15:00 ⏰ | **Zhifei**: list of the 15 worst errors · by Sat 14 Nov 10:00 ⏰<br>**everyone**: final slides for proofreading · by Sat 14 Nov 16:00 ⏰ · for B5<br>**everyone**: lines for the reflection document · by Sun 15 Nov 10:00 ⏰ · for B6 | nobody |
+| **Wenyue** · [B](work/B-literature-data-audit.md)<br>🟡 Partly waiting<br>4 / 7 own tasks done<br>⏰ 3 past the time | B7 Submission checklist, peer-evaluation reminders · Sun 15 Nov 15:00 ⏰ | **everyone**: final slides for proofreading · by Sat 14 Nov 16:00 ⏰ · for B5<br>**everyone**: lines for the reflection document · by Sun 15 Nov 10:00 ⏰ · for B6 | nobody |
 | **Qiutian** · [C](work/C-compute-runs-efficiency.md)<br>✅ Finished<br>7 / 7 own tasks done | — | nobody | nobody |
 | **Hailing** · [D](work/D-baselines.md)<br>✅ Finished<br>7 / 7 own tasks done | — | nobody | nobody |
 | **Jikai** · [E](work/E-neural-models.md)<br>✅ Finished<br>6 / 6 own tasks done | — | nobody | nobody |
-| **Zhifei** · [F](work/F-interpretation-demo.md)<br>🟢 Can work<br>2 / 6 own tasks done<br>⏰ 4 past the time | F1 LIME on the final DistilBERT · Sat 14 Nov 12:00 ⏰<br>F2 Error and results figures, worst-error list · Sat 14 Nov 12:00 ⏰<br>F3 Transfer matrix · Sat 14 Nov 12:00 ⏰<br>+ 1 more | nobody | **Wenyue**: list of the 15 worst errors · by Sat 14 Nov 10:00 ⏰ |
+| **Zhifei** · [F](work/F-interpretation-demo.md)<br>🟢 Can work<br>3 / 6 own tasks done<br>⏰ 3 past the time | F1 LIME on the final DistilBERT · Sat 14 Nov 12:00 ⏰<br>F3 Transfer matrix · Sat 14 Nov 12:00 ⏰<br>F4 Extrapolation to ScienceQA · Sat 14 Nov 12:00 ⏰ | nobody | nobody |
 
 | Everyone hands in | To | By | Still missing from |
 |---|---|---|---|
@@ -28,7 +28,7 @@ A program rebuilds this table from the files in the repository and from the repo
 | Own recording | Xingyang | Sat 14 Nov 23:59 ⏰ | everyone |
 | Lines for the reflection document | Wenyue | Sun 15 Nov 10:00 ⏰ | everyone |
 
-Pull requests waiting for the lead's review: [#16](https://github.com/Kankawa728-byte/levellens/pull/16) by Ericaa001.
+Pull requests waiting for the lead's review: none.
 
 - **Finished something?** Comment `done C4` on the issue of your share: [A](https://github.com/Kankawa728-byte/levellens/issues/1), [B](https://github.com/Kankawa728-byte/levellens/issues/2), [C](https://github.com/Kankawa728-byte/levellens/issues/3), [D](https://github.com/Kankawa728-byte/levellens/issues/4), [E](https://github.com/Kankawa728-byte/levellens/issues/5), [F](https://github.com/Kankawa728-byte/levellens/issues/6). Several at once: `done C1 C2`. What everyone hands in: `done slides`, `done recording`, `done reflection`. To take one back: `undo C4`.
 - 🟢 the next task can be done now. 🟡 the next task waits for someone, a later one can be done. 🔴 every open task waits for someone.

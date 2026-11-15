@@ -9,18 +9,18 @@ English: [README.md](README.md)。每个页面都有中文版，页面顶部有�
 <!-- board:start -->
 ## 实时状态：谁在等谁
 
-这张表由程序根据仓库里的文件和六个分工 issue 里的报告自动重建。上次变化：11 月 15 日（周日）16:04。
+这张表由程序根据仓库里的文件和六个分工 issue 里的报告自动重建。上次变化：11 月 15 日（周日）16:29。
 
-**现在最多人在等：**Zhifei · 最严重的 15 个错误的清单 · 11 月 14 日（周六）10:00 前。直接或间接在等的人：Wenyue。
+**现在没有人在等别人。**
 
 | 谁 | 现在能做 | 在等谁 | 谁在等这一份 |
 |---|---|---|---|
 | **Xingyang** · [A](work/A-framework-integration.zh-CN.md)<br>🟡 部分在等<br>自己的任务完成 6 / 9<br>⏰ 3 项已过时间 | A5 冻结规格、审阅和合并、每天整合、决定做不做 · 11 月 15 日（周日）14:00 ⏰ | **所有人**：自己的录制文件 · 11 月 14 日（周六）23:59 前 ⏰ · 用于 A7、A8 | **所有人**：拼好的视频，用于审看 · 11 月 15 日（周日）11:00 前 ⏰ |
-| **Wenyue** · [B](work/B-literature-data-audit.zh-CN.md)<br>🟡 部分在等<br>自己的任务完成 4 / 7<br>⏰ 3 项已过时间 | B7 提交清单、互评提醒 · 11 月 15 日（周日）15:00 ⏰ | **Zhifei**：最严重的 15 个错误的清单 · 11 月 14 日（周六）10:00 前 ⏰<br>**所有人**：slides 定稿，用于校对 · 11 月 14 日（周六）16:00 前 ⏰ · 用于 B5<br>**所有人**：反思文档里自己的内容 · 11 月 15 日（周日）10:00 前 ⏰ · 用于 B6 | 没有 |
+| **Wenyue** · [B](work/B-literature-data-audit.zh-CN.md)<br>🟡 部分在等<br>自己的任务完成 4 / 7<br>⏰ 3 项已过时间 | B7 提交清单、互评提醒 · 11 月 15 日（周日）15:00 ⏰ | **所有人**：slides 定稿，用于校对 · 11 月 14 日（周六）16:00 前 ⏰ · 用于 B5<br>**所有人**：反思文档里自己的内容 · 11 月 15 日（周日）10:00 前 ⏰ · 用于 B6 | 没有 |
 | **Qiutian** · [C](work/C-compute-runs-efficiency.zh-CN.md)<br>✅ 全部完成<br>自己的任务完成 7 / 7 | — | 没有 | 没有 |
 | **Hailing** · [D](work/D-baselines.zh-CN.md)<br>✅ 全部完成<br>自己的任务完成 7 / 7 | — | 没有 | 没有 |
 | **Jikai** · [E](work/E-neural-models.zh-CN.md)<br>✅ 全部完成<br>自己的任务完成 6 / 6 | — | 没有 | 没有 |
-| **Zhifei** · [F](work/F-interpretation-demo.zh-CN.md)<br>🟢 可以做<br>自己的任务完成 2 / 6<br>⏰ 4 项已过时间 | F1 最终 DistilBERT 上的 LIME · 11 月 14 日（周六）12:00 ⏰<br>F2 错误图和结果图、最严重错误的清单 · 11 月 14 日（周六）12:00 ⏰<br>F3 迁移矩阵 · 11 月 14 日（周六）12:00 ⏰<br>另有 1 项 | 没有 | **Wenyue**：最严重的 15 个错误的清单 · 11 月 14 日（周六）10:00 前 ⏰ |
+| **Zhifei** · [F](work/F-interpretation-demo.zh-CN.md)<br>🟢 可以做<br>自己的任务完成 3 / 6<br>⏰ 3 项已过时间 | F1 最终 DistilBERT 上的 LIME · 11 月 14 日（周六）12:00 ⏰<br>F3 迁移矩阵 · 11 月 14 日（周六）12:00 ⏰<br>F4 外推到 ScienceQA · 11 月 14 日（周六）12:00 ⏰ | 没有 | 没有 |
 
 | 每个人都要交 | 交给谁 | 什么时候 | 还没交的人 |
 |---|---|---|---|
@@ -28,7 +28,7 @@ English: [README.md](README.md)。每个页面都有中文版，页面顶部有�
 | 自己的录制文件 | Xingyang | 11 月 14 日（周六）23:59 ⏰ | 所有人 |
 | 反思文档里自己的内容 | Wenyue | 11 月 15 日（周日）10:00 ⏰ | 所有人 |
 
-等组长审阅的 pull request：[#16](https://github.com/Kankawa728-byte/levellens/pull/16)，提交人 Ericaa001。
+等组长审阅的 pull request：没有。
 
 - **做完了一项？**在自己那一份的 issue 下评论 `done C4`：[A](https://github.com/Kankawa728-byte/levellens/issues/1)、[B](https://github.com/Kankawa728-byte/levellens/issues/2)、[C](https://github.com/Kankawa728-byte/levellens/issues/3)、[D](https://github.com/Kankawa728-byte/levellens/issues/4)、[E](https://github.com/Kankawa728-byte/levellens/issues/5)、[F](https://github.com/Kankawa728-byte/levellens/issues/6)。一次报几项：`done C1 C2`。每个人都要交的三样：`done slides`、`done recording`、`done reflection`。报错了要撤回：`undo C4`。
 - 🟢 下一项任务现在就能做。🟡 下一项任务在等别人，后面有能做的。🔴 所有没做完的任务都在等别人。
