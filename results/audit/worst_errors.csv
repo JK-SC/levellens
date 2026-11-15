@@ -1,11 +1,16 @@
 dataset,item_id,run_id,split,true_level,true_name,predicted_level,predicted_name,abs_error,confidence,proba,predictions_sha256
-arc,Mercury_7234395,arc-bilstm-corn-s0,test,6,grade 9,0,grade 3,6,0.7951,"[0.7951, 0.1588, 0.0407, 0.0022, 0.0014, 0.0013, 0.0006]",a498bb93617a34a4f3f01322afb948fa1dd49d40d31a51af9732891c48e51b6e
-arc,TIMSS_1995_8_N2,arc-bilstm-corn-s0,test,5,grade 8,0,grade 3,5,0.8786,"[0.8786, 0.1043, 0.0159, 0.0005, 0.0003, 0.0003, 0.0001]",a498bb93617a34a4f3f01322afb948fa1dd49d40d31a51af9732891c48e51b6e
-arc,NCEOGA_2013_8_36,arc-bilstm-corn-s0,test,5,grade 8,0,grade 3,5,0.8676,"[0.8676, 0.1096, 0.0205, 0.001, 0.0006, 0.0005, 0.0003]",a498bb93617a34a4f3f01322afb948fa1dd49d40d31a51af9732891c48e51b6e
-arc,Mercury_175560,arc-bilstm-corn-s0,test,5,grade 8,0,grade 3,5,0.8629,"[0.8629, 0.1146, 0.0199, 0.0012, 0.0006, 0.0006, 0.0003]",a498bb93617a34a4f3f01322afb948fa1dd49d40d31a51af9732891c48e51b6e
-arc,Mercury_7032515,arc-bilstm-corn-s0,test,5,grade 8,0,grade 3,5,0.851,"[0.851, 0.119, 0.0266, 0.0013, 0.0008, 0.0008, 0.0004]",a498bb93617a34a4f3f01322afb948fa1dd49d40d31a51af9732891c48e51b6e
-math,math-test-prealgebra-0473,math-bilstm-corn-s0,test,4,Level 5,0,Level 1,4,0.7689,"[0.7689, 0.1858, 0.0299, 0.0087, 0.0067]",fd5203ab9b72a4d7b07ae90fe6ab61fc649c32d23518355bafb4fbd038ceb9dd
-math,math-test-precalculus-0465,math-bilstm-corn-s0,test,4,Level 5,0,Level 1,4,0.7541,"[0.7541, 0.1718, 0.0468, 0.0135, 0.0137]",fd5203ab9b72a4d7b07ae90fe6ab61fc649c32d23518355bafb4fbd038ceb9dd
-math,math-test-prealgebra-0563,math-bilstm-corn-s0,test,4,Level 5,0,Level 1,4,0.7441,"[0.7441, 0.18, 0.0485, 0.0166, 0.0108]",fd5203ab9b72a4d7b07ae90fe6ab61fc649c32d23518355bafb4fbd038ceb9dd
-math,math-test-prealgebra-0546,math-bilstm-corn-s0,test,4,Level 5,0,Level 1,4,0.7437,"[0.7437, 0.1801, 0.0486, 0.0167, 0.0109]",fd5203ab9b72a4d7b07ae90fe6ab61fc649c32d23518355bafb4fbd038ceb9dd
-math,math-test-geometry-0291,math-bilstm-corn-s0,test,4,Level 5,0,Level 1,4,0.7332,"[0.7332, 0.1893, 0.0464, 0.015, 0.016]",fd5203ab9b72a4d7b07ae90fe6ab61fc649c32d23518355bafb4fbd038ceb9dd
+arc,TIMSS_1995_8_N2,arc-distilbert-corn-optuna-s0,test,5,grade 8,0,grade 3,5,0.8449,"[0.8449, 0.1468, 0.0079, 0.0002, 0.0001, 0.0001, 0.0]",73ff2c5693892798be0e0e71545bb4115b7ba9c1d970c5a76b63ec9ac3b53072
+arc,Mercury_SC_LBS10946,arc-distilbert-corn-optuna-s0,test,1,grade 4,6,grade 9,5,0.7208,"[0.0183, 0.0142, 0.0164, 0.0151, 0.0605, 0.1547, 0.7208]",73ff2c5693892798be0e0e71545bb4115b7ba9c1d970c5a76b63ec9ac3b53072
+arc,NCEOGA_2013_8_36,arc-distilbert-corn-optuna-s0,test,5,grade 8,0,grade 3,5,0.5583,"[0.5583, 0.4118, 0.0278, 0.0013, 0.0003, 0.0004, 0.0]",73ff2c5693892798be0e0e71545bb4115b7ba9c1d970c5a76b63ec9ac3b53072
+arc,MCAS_2004_9_6-v1,arc-distilbert-corn-optuna-s0,test,6,grade 9,1,grade 4,5,0.5491,"[0.1192, 0.5491, 0.2897, 0.0185, 0.0083, 0.0139, 0.0015]",73ff2c5693892798be0e0e71545bb4115b7ba9c1d970c5a76b63ec9ac3b53072
+arc,WASL_2005_8_12,arc-distilbert-corn-optuna-s0,test,5,grade 8,0,grade 3,5,0.5115,"[0.5115, 0.4573, 0.0301, 0.0004, 0.0002, 0.0003, 0.0]",73ff2c5693892798be0e0e71545bb4115b7ba9c1d970c5a76b63ec9ac3b53072
+math,math-test-prealgebra-0581,math-deberta-v3-corn-s0,test,4,Level 5,0,Level 1,4,0.8791,"[0.8791, 0.1008, 0.0142, 0.0033, 0.0025]",210c8c5fa73cceb0392a31e349296515ac06c1aa1f40eeae418d15c6d9f087e6
+math,math-test-prealgebra-0784,math-deberta-v3-corn-s0,test,4,Level 5,0,Level 1,4,0.8397,"[0.8397, 0.1441, 0.0133, 0.0022, 0.0007]",210c8c5fa73cceb0392a31e349296515ac06c1aa1f40eeae418d15c6d9f087e6
+math,math-test-number_theory-0044,math-deberta-v3-corn-s0,test,4,Level 5,0,Level 1,4,0.7178,"[0.7178, 0.2541, 0.0238, 0.0034, 0.0008]",210c8c5fa73cceb0392a31e349296515ac06c1aa1f40eeae418d15c6d9f087e6
+math,math-test-algebra-1029,math-deberta-v3-corn-s0,test,4,Level 5,0,Level 1,4,0.7066,"[0.7066, 0.2658, 0.0235, 0.0033, 0.0007]",210c8c5fa73cceb0392a31e349296515ac06c1aa1f40eeae418d15c6d9f087e6
+math,math-test-number_theory-0134,math-deberta-v3-corn-s0,test,4,Level 5,0,Level 1,4,0.5737,"[0.5737, 0.3632, 0.0517, 0.009, 0.0024]",210c8c5fa73cceb0392a31e349296515ac06c1aa1f40eeae418d15c6d9f087e6
+race,race-test-college696-q1,race-deberta-v3-corn-s0,test,2,college,0,middle school,2,0.9864,"[0.9864, 0.0125, 0.0012]",552a88e051d822dd820cf28c0c09fd5199aef3d15b49bed3610b65a8bc9c9e52
+race,race-test-college696-q0,race-deberta-v3-corn-s0,test,2,college,0,middle school,2,0.9573,"[0.9573, 0.0372, 0.0056]",552a88e051d822dd820cf28c0c09fd5199aef3d15b49bed3610b65a8bc9c9e52
+race,race-test-college696-q3,race-deberta-v3-corn-s0,test,2,college,0,middle school,2,0.9573,"[0.9573, 0.0374, 0.0053]",552a88e051d822dd820cf28c0c09fd5199aef3d15b49bed3610b65a8bc9c9e52
+race,race-test-middle3379-q0,race-deberta-v3-corn-s0,test,0,middle school,2,college,2,0.9506,"[0.0284, 0.021, 0.9506]",552a88e051d822dd820cf28c0c09fd5199aef3d15b49bed3610b65a8bc9c9e52
+race,race-test-college696-q2,race-deberta-v3-corn-s0,test,2,college,0,middle school,2,0.9504,"[0.9504, 0.0352, 0.0143]",552a88e051d822dd820cf28c0c09fd5199aef3d15b49bed3610b65a8bc9c9e52
