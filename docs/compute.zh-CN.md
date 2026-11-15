@@ -179,7 +179,7 @@ GloVe 6B 300d，以及 `levellens/models/llm.py` 里钉住版本号的 Qwen3-4B-
 结果目录，所以从来没有两个作业同时往同一个 `runs.jsonl` 追加。
 
 按 [workflow.zh-CN.md](workflow.zh-CN.md) 的规则，模型权重不入库。演示用的 DistilBERT 检查点
-`arc-distilbert-corn-s0` 是所有保存模型里最快的，GPU 上每题 0.003 秒、CPU 上 0.056 秒；
+`arc-distilbert-corn-s0` 是所有保存模型里最快的，GPU 上每题 0.003 秒、计算节点的 CPU 上 0.056 秒；
 它在仓库之外交给分工 F。
 
 ## 6. 效率与延迟
@@ -192,7 +192,7 @@ GloVe 6B 300d，以及 `levellens/models/llm.py` 里钉住版本号的 Qwen3-4B-
 |---|---|---|---|
 | **R6**，每次微调 | 0.19 小时，28 次里最长的 | 1 GPU 小时 | 通过 |
 | **R6**，整个项目 | 0.89 GPU 小时 | 20 GPU 小时 | 通过 |
-| **R7**，CPU 上一道题 | 4 个已保存 DistilBERT 模型，0.028 到 0.058 秒 | 1 秒 | 通过 |
+| **R7**，CPU 上一道题 | 5 个已保存 DistilBERT 模型，0.026 到 0.046 秒 | 1 秒 | 通过 |
 
 项目上限只计 GPU 小时。除此之外，项目还花了 0.45 CPU 小时（经典基线和特征模型）和 0.41 小时的
 笔记本 GPU（最早的几行 BiLSTM）；效率表把这三类分开列，因为三者的一小时不是一回事。
@@ -205,27 +205,32 @@ GloVe 6B 300d，以及 `levellens/models/llm.py` 里钉住版本号的 Qwen3-4B-
 
 | 模型 | CPU 上 | GPU 上 | GPU 上按 32 批 |
 |---|---|---|---|
-| DistilBERT | 0.046 到 0.058 秒 | 0.003 秒 | 0.0003 秒 |
+| DistilBERT | 笔记本上 0.026 到 0.034 秒，计算节点上 0.046 到 0.058 秒 | 0.003 秒 | 0.0003 秒 |
 | DeBERTa-v3 | 未测 | 0.014 到 0.015 秒 | 0.0006 到 0.0011 秒 |
 
-- CPU 的数字来自 `python -m levellens.export`，它同时也是任务 E8 的检查。R7 要求的是笔记本 CPU，
-  而这些是在计算节点上测的，属于服务器 CPU。仓库里那一次笔记本测量（DistilBERT smoke 模型
-  0.028 秒）是别的分工做的，也在同一张表里。两者都比上限小一个数量级以上，所以判定不取决于
-  究竟指哪台机器。
+- CPU 的数字来自 `python -m levellens.export`，它同时也是任务 E8 的检查。R7 要求的是笔记本 CPU。
+  分工 C 在 11 月 14 日是在计算节点上测的，属于服务器 CPU：三个 DistilBERT 模型是 0.046 到
+  0.058 秒。11 月 15 日分工 E 在笔记本上对三个 DistilBERT CORN 模型重做了这项检查：0.026 到 0.034 秒。
+  测过两次的那两个运行，笔记本的报告替换了计算节点的报告（0.056 和 0.058 秒）；
+  `race-distilbert-ce-s0` 在计算节点上的报告（0.046 秒）仍在 `results/export/` 里。加上
+  DistilBERT smoke 模型的笔记本测量 0.028 秒，这些就是 R7 依据的五份报告。它们都比上限小一个
+  数量级以上，所以判定不取决于究竟指哪台机器。
 - GPU 的数字来自 `python scripts/latency.py --device cuda`。DeBERTa-v3 回答一道题是 15 毫秒，
   所以演示在 GPU 上会是即时的，在 CPU 上也仍远低于一秒。
 
 ### 有一件事要交给分工 E（任务 E8）
 
-`levellens.export` 对每一个已保存模型都报 **same predictions False**：Predictor 的概率与训练时
-存下的概率之间最大差异为 6.2e-03 到 2.4e-02，而 `levellens/export.py` 里的容差是 1e-03。
+11 月 14 日，`levellens.export` 对每一个已保存模型都报 **same predictions False**：Predictor 的概率
+与训练时存下的概率之间最大差异为 6.2e-03 到 2.4e-02，而 `levellens/export.py` 当时的容差是 1e-03。
 
 问题不在保存和加载。同样的检查把模型放到 GPU 上（也就是这些运行训练时的精度）做，六个被测模型的
 最大差异都是 **3.0e-08**。差异来自 bfloat16 与 fp32 之比：bfloat16 的尾数只有 8 位，所以两者大约
-在第二到第三位小数一致，而不是 `TOLERANCE` 的注释所说的第四位。`scripts/measure.sbatch` 会把两个
+在第二到第三位小数一致，而不是 `TOLERANCE` 当时的注释所说的第四位。`scripts/measure.sbatch` 会把两个
 检查都跑，GPU 那个先跑。
 
-是改成在训练精度下比较，还是把容差放宽，这是分工 E 的决定；分工 C 两者都没有动。
+是改成在训练精度下比较，还是把容差放宽，这由分工 E 决定；分工 C 两者都没有动。分工 E 在
+11 月 15 日放宽了容差：`TOLERANCE` 现在是 0.03，此后写出的每份报告都注明它用的容差。在那之前写出的
+报告是按 1e-03 检查的，所以对新容差能接受的差异，它仍可能写 False。
 
 ## 7. 复现性说明
 
