@@ -3,9 +3,10 @@
   "dataset": "arc",
   "split": "test",
   "n": 3530,
-  "max_abs_difference": 0.006839309240562974,
-  "same_predictions": false,
-  "seconds_per_question": 0.0564,
+  "max_abs_difference": 0.006840554005268784,
+  "probability_tolerance": 0.03,
+  "same_predictions": true,
+  "seconds_per_question": 0.0337,
   "timed_items": 100,
   "device": "cpu",
   "r7_pass": true

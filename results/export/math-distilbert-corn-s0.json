@@ -3,9 +3,10 @@
   "dataset": "math",
   "split": "test",
   "n": 5000,
-  "max_abs_difference": 0.02439945936203003,
-  "same_predictions": false,
-  "seconds_per_question": 0.0576,
+  "max_abs_difference": 0.024394869804382324,
+  "probability_tolerance": 0.03,
+  "same_predictions": true,
+  "seconds_per_question": 0.0329,
   "timed_items": 100,
   "device": "cpu",
   "r7_pass": true
