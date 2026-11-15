@@ -9,14 +9,14 @@ Group project of Table 38, six members. Hard deadline: **Sun 15 Nov 2026, 23:59*
 <!-- board:start -->
 ## Live status: who waits for whom
 
-A program rebuilds this table from the files in the repository and from the reports in the six share issues. Last change: Sun 15 Nov 15:15.
+A program rebuilds this table from the files in the repository and from the reports in the six share issues. Last change: Sun 15 Nov 15:43.
 
 **Most people wait for:** Zhifei · list of the 15 worst errors · by Sat 14 Nov 10:00. Waiting, directly or through someone else: Wenyue.
 
 | Who | Can do now | Waits for | Who waits for this share |
 |---|---|---|---|
 | **Xingyang** · [A](work/A-framework-integration.md)<br>🟡 Partly waiting<br>6 / 9 own tasks done<br>⏰ 3 past the time | A5 Specification freeze, reviews and merges, daily integration, go or no-go calls · Sun 15 Nov 14:00 ⏰ | **everyone**: own recording · by Sat 14 Nov 23:59 ⏰ · for A7, A8 | **everyone**: joined video for the review · by Sun 15 Nov 11:00 ⏰ |
-| **Wenyue** · [B](work/B-literature-data-audit.md)<br>🟡 Partly waiting<br>3 / 7 own tasks done<br>⏰ 4 past the time | B7 Submission checklist, peer-evaluation reminders · Sun 15 Nov 15:00 ⏰ | **Zhifei**: list of the 15 worst errors · by Sat 14 Nov 10:00 ⏰ · for B3<br>**everyone**: final slides for proofreading · by Sat 14 Nov 16:00 ⏰ · for B5<br>**everyone**: lines for the reflection document · by Sun 15 Nov 10:00 ⏰ · for B6 | nobody |
+| **Wenyue** · [B](work/B-literature-data-audit.md)<br>🟡 Partly waiting<br>4 / 7 own tasks done<br>⏰ 3 past the time | B7 Submission checklist, peer-evaluation reminders · Sun 15 Nov 15:00 ⏰ | **Zhifei**: list of the 15 worst errors · by Sat 14 Nov 10:00 ⏰<br>**everyone**: final slides for proofreading · by Sat 14 Nov 16:00 ⏰ · for B5<br>**everyone**: lines for the reflection document · by Sun 15 Nov 10:00 ⏰ · for B6 | nobody |
 | **Qiutian** · [C](work/C-compute-runs-efficiency.md)<br>✅ Finished<br>7 / 7 own tasks done | — | nobody | nobody |
 | **Hailing** · [D](work/D-baselines.md)<br>✅ Finished<br>7 / 7 own tasks done | — | nobody | nobody |
 | **Jikai** · [E](work/E-neural-models.md)<br>✅ Finished<br>6 / 6 own tasks done | — | nobody | nobody |
